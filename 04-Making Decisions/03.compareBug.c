@@ -5,9 +5,10 @@ int main(void){
     int n;
     scanf("%d", &n);
 
-    if (n =64){
+    if (n = 64){
         printf(" you entered 64. \n");
     }
-    
+// single = means assigmnet 
+// double == means equal to 
     return 0; 
 }

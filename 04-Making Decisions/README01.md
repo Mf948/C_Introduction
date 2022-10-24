@@ -60,3 +60,66 @@ if(expression #1){
     default block of code 
 }
 
+# 03 Scope of a Variable 
+ variable deacled inside main 
+
+ int main(void){
+
+    /* code before variable declaration... */
+
+    int my_variable;
+
+    /* Code after variable declaration.. */ 
+
+
+ }
+
+ # 03 a Scope of a variable Declared inside if statement 
+
+    int main(void){
+        if(condition){
+            int my_variable;
+
+            /* Code after variable delcaration inside if body.. */
+        }
+     /* Code after variable declaration inside main... */
+
+    }  
+# 04 Nested if statemts 
+
+    if(condition1){
+        /* code executed when condition1 is true */
+
+        if(condition2){
+            /* code exectuted when condition1 is true, and condition2 is true */
+        } /* if (condition2) */
+
+    } /* if (condition1) */
+ 
+ # Testing for Equality against a List of values 
+    
+    switch (n){
+        case value1:
+            /* stateemts for case 1 */
+            break;
+        case value2:
+            /* stateemts for case 2 */
+            break;\
+        default:
+        /* statemts for all the other cases */
+        break
+
+    }
+
+# Ternary conditional Operator 
+
+maxNumber = (number1 > number2) ?
+            number1 : number2;
+
+# if-else 
+
+    if(number1 > number2)
+        maxNumber = number1;
+    else 
+        maxNumber = number2;
+
