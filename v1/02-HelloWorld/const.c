@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-const int humanos "es de humanos herrar"; 
+const int humanos "es de humanos herrar";
 
 const int COSTHOTDOG = 100U;
 
